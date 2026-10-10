@@ -1,6 +1,6 @@
 # zxLeafOS 2.0 正式版 v3
 
-> 一个由 Scratch 3.0 编写的网页"操作系统"项目，从打包后的 HTML 文件中完整还原。
+> 一个由 Scratch 3.0 编写的网页"操作系统"项目。
 
 ## 项目简介
 
@@ -104,7 +104,7 @@ zxLeafOS 2.0 是基于 Scratch 3.0 平台开发的伪操作系统项目，模拟
 
 ## 许可证
 
-本项目源码（`project.json` + `assets/`）属于原作者。提取脚本以 MIT 许可证发布，
+本项目以 MIT 许可证发布，
 详见 [LICENSE](LICENSE)。
 
 ## 致谢
