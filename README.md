@@ -118,11 +118,8 @@ zxLeafOS 2.0 是基于 Scratch 3.0 平台开发的伪操作系统项目，模拟
 - 打包工具: [02Engine Packager](https://packager.02engine.02studio.xyz/) by 02Studio
 - 运行时: [Scaffolding](https://github.com/TurboWarp/scaffolding) (Mozilla Public License v2.0)
 - [Scratch](https://scratch.mit.edu/) by MIT
-- 扩展作者: CST1229, Lily, Skyhigh173, TheShovel, godslayerakp, CubesterYT 等
 
 ## 许可证
 
 本项目全部源码（包括 `project.json`、`assets/`、`hot_updates/`）以 **MIT 协议** 开源，
-详见 [LICENSE](LICENSE)。
-
-第三方扩展（`hot_updates/extensions/`）保留原作者的许可证。
+详见 [LICENSE]
