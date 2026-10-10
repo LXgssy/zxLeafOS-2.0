@@ -1,0 +1,394 @@
+[
+  {
+    "question": "如何在Python中创建一个简单的Web服务器？",
+    "answer": "在Python中可以使用内置的http.server模块来快速创建一个简单的Web服务器。在命令行中运行 'python -m http.server 8000' 即可启动一个监听8000端口的服务器。"
+  },
+  {
+    "question": "CSS中如何居中一个div元素？",
+    "answer": "可以使用多种方法居中div，最常用的是flexbox：父容器设置display: flex; justify-content: center; align-items: center; 或者使用margin: 0 auto;（仅水平居中）"
+  },
+  {
+    "question": "JavaScript中如何获取当前时间？",
+    "answer": "使用new Date()创建Date对象，然后调用getFullYear(), getMonth(), getDate()等方法获取年月日信息。例如：let now = new Date(); console.log(now.toLocaleString());"
+  },
+  {
+    "question": "什么是机器学习？",
+    "answer": "机器学习是人工智能的一个分支，通过算法让计算机从数据中学习模式和规律，从而对新数据做出预测或决策，而无需明确编程指令。"
+  },
+  {
+    "question": "如何提高学习效率？",
+    "answer": "提高学习效率的方法包括：制定明确的学习目标、使用番茄工作法、主动回忆、分散练习、保持充足的睡眠和定期复习。"
+  },
+  {
+    "question": "如何在Linux中查看当前目录下的所有文件？",
+    "answer": "使用ls命令，ls -la显示所有文件包括隐藏文件，ls -l显示详细信息，ls *.txt显示特定类型文件。"
+  },
+  {
+    "question": "如何在Excel中求和？",
+    "answer": "使用SUM函数，例如=SUM(A1:A10)对A1到A10单元格求和，或者=SUM(A1,B1,C1)对特定单元格求和。"
+  },
+  {
+    "question": "Python中如何读取CSV文件？",
+    "answer": "使用pandas库的read_csv函数：import pandas as pd; df = pd.read_csv('file.csv'); 或者使用csv模块：import csv; with open('file.csv') as f: reader = csv.reader(f)"
+  },
+  {
+    "question": "如何在手机上备份照片？",
+    "answer": "可以通过云服务备份，如iCloud、Google Photos、OneDrive等，也可以连接电脑传输到本地存储设备，或使用手机自带的备份功能。"
+  },
+  {
+    "question": "什么是HTTP状态码？",
+    "answer": "HTTP状态码是服务器响应客户端请求时返回的三位数字代码，表示请求的处理结果，如200表示成功，404表示找不到页面，500表示服务器错误。"
+  },
+  {
+    "question": "如何制作PPT演示文稿？",
+    "answer": "使用PowerPoint、Keynote或在线工具如Google Slides，先规划内容结构，选择合适的模板，添加文字、图片、图表等元素，最后进行动画设置和排练计时。"
+  },
+  {
+    "question": "如何设置电脑开机密码？",
+    "answer": "Windows系统：按Win+I打开设置 -> 账户 -> 登录选项 -> 设置密码。Mac系统：系统偏好设置 -> 用户与群组 -> 更改密码。"
+  },
+  {
+    "question": "什么是API？",
+    "answer": "API（应用程序编程接口）是一套定义了软件组件之间交互方式的协议和工具集合，允许不同的应用程序相互通信和交换数据。"
+  },
+  {
+    "question": "如何规划一次旅行？",
+    "answer": "确定目的地和预算，研究当地气候和文化，预订交通和住宿，制定行程安排，准备必要证件和物品，购买旅行保险。"
+  },
+  {
+    "question": "如何学习一门新语言？",
+    "answer": "设定具体目标，使用多感官学习方法，每天坚持练习，寻找语言伙伴，利用应用程序如Duolingo，观看原版影视作品，参加语言课程。"
+  },
+  {
+    "question": "如何在Word中插入目录？",
+    "answer": "先使用标题样式格式化文档标题，然后将光标放在要插入目录的位置，点击引用 -> 目录 -> 选择样式，Word会自动创建目录。"
+  },
+  {
+    "question": "什么是数据库索引？",
+    "answer": "数据库索引是一种特殊的数据结构，用于提高数据库表中数据检索的速度，类似于书籍的目录，可以快速定位到特定记录。"
+  },
+  {
+    "question": "如何保养汽车？",
+    "answer": "定期更换机油和滤芯，检查轮胎气压和磨损情况，保持电池清洁，定期检查刹车系统，按时进行保养维护，注意驾驶习惯。"
+  },
+  {
+    "question": "如何种植室内植物？",
+    "answer": "选择适合室内环境的植物，提供适当的光照、水分和温度，使用排水良好的土壤，定期施肥，注意通风，及时修剪枯叶。"
+  },
+  {
+    "question": "如何管理个人财务？",
+    "answer": "制定预算计划，记录收支情况，建立紧急基金，减少不必要的支出，投资理财，定期审查财务状况，设定财务目标。"
+  },
+  {
+    "question": "如何在Photoshop中抠图？",
+    "answer": "可以使用魔棒工具、套索工具、钢笔工具或快速选择工具选择要抠出的区域，然后使用图层蒙版或直接删除背景。"
+  },
+  {
+    "question": "什么是区块链？",
+    "answer": "区块链是一种分布式账本技术，数据以区块形式存储并链接成链，具有去中心化、不可篡改、透明可追溯等特点。"
+  },
+  {
+    "question": "如何做一道家常菜？",
+    "answer": "选择简单的菜品如西红柿炒鸡蛋，准备食材，清洗切配，热锅下油，先炒蛋后炒西红柿，调味收汁即可。"
+  },
+  {
+    "question": "如何提高英语口语？",
+    "answer": "多听多说多练习，模仿标准发音，参加英语角活动，找语伴练习对话，观看英语视频，录音自我纠正，大胆开口表达。"
+  },
+  {
+    "question": "如何修复电脑蓝屏问题？",
+    "answer": "重启电脑，进入安全模式卸载最近安装的软件或驱动程序，运行系统文件检查器sfc /scannow，更新驱动程序，检查硬件故障。"
+  },
+  {
+    "question": "什么是云计算？",
+    "answer": "云计算是通过互联网提供计算资源和服务的技术，包括基础设施、平台和软件服务，用户可以按需使用而无需购买物理设备。"
+  },
+  {
+    "question": "如何在Python中处理异常？",
+    "answer": "使用try-except语句捕获异常，例如：try: risky_code() except ValueError as e: print(f'错误: {e}') finally: cleanup_code()。"
+  },
+  {
+    "question": "如何减肥健康？",
+    "answer": "制定合理的饮食计划，控制热量摄入，增加运动量，保证充足睡眠，多喝水，避免极端节食，寻求专业指导。"
+  },
+  {
+    "question": "如何选择合适的笔记本电脑？",
+    "answer": "根据用途确定配置需求，考虑处理器、内存、硬盘容量、屏幕尺寸、电池续航、重量等因素，平衡性能和价格。"
+  },
+  {
+    "question": "什么是版本控制系统？",
+    "answer": "版本控制系统用于跟踪文件变更历史，协调多人协作开发，Git是最流行的分布式版本控制系统，支持分支管理和代码合并。"
+  },
+  {
+    "question": "如何在微信中设置隐私权限？",
+    "answer": "打开微信 -> 我 -> 设置 -> 隐私，可以设置朋友圈权限、通讯录权限、位置信息等，保护个人信息安全。"
+  },
+  {
+    "question": "如何在Java中创建线程？",
+    "answer": "可以通过继承Thread类并重写run方法，或实现Runnable接口并传递给Thread构造函数，例如：Thread t = new Thread(new MyRunnable()); t.start();"
+  },
+  {
+    "question": "如何保养皮肤？",
+    "answer": "保持清洁，适当保湿，使用防晒霜，健康饮食，充足睡眠，适量运动，避免过度清洁，选择适合肤质的护肤品。"
+  },
+  {
+    "question": "如何在MySQL中创建数据库？",
+    "answer": "使用CREATE DATABASE语句，例如：CREATE DATABASE mydb; USE mydb; CREATE TABLE users (id INT PRIMARY KEY, name VARCHAR(50));"
+  },
+  {
+    "question": "如何规划职业生涯？",
+    "answer": "了解自己的兴趣和优势，研究行业趋势，设定短期和长期目标，持续学习提升技能，建立人脉关系，定期评估和调整规划。"
+  },
+  {
+    "question": "如何在手机上清理缓存？",
+    "answer": "Android：设置 -> 存储 -> 清除缓存；iOS：卸载重装应用或使用第三方清理工具，定期清理浏览器缓存和下载文件。"
+  },
+  {
+    "question": "什么是面向对象编程？",
+    "answer": "面向对象编程是一种编程范式，基于对象的概念，包含属性和方法，主要特征有封装、继承和多态，提高了代码的可重用性和可维护性。"
+  },
+  {
+    "question": "如何选择旅游目的地？",
+    "answer": "考虑预算、时间、兴趣爱好、季节气候、安全状况等因素，查阅攻略评价，比较交通便利程度，选择符合个人偏好的地方。"
+  },
+  {
+    "question": "如何在JavaScript中操作DOM？",
+    "answer": "使用document.getElementById()、querySelector()获取元素，通过innerHTML、textContent修改内容，addEventListener()绑定事件，createElement()创建新元素。"
+  },
+  {
+    "question": "如何缓解压力？",
+    "answer": "进行体育锻炼，保持良好作息，学会放松技巧如冥想深呼吸，培养兴趣爱好，寻求社交支持，合理安排工作和休息时间。"
+  },
+  {
+    "question": "如何在Ubuntu中安装软件？",
+    "answer": "使用apt包管理器，例如：sudo apt update更新软件列表，sudo apt install package_name安装软件，sudo apt remove package_name卸载软件。"
+  },
+  {
+    "question": "什么是深度学习？",
+    "answer": "深度学习是机器学习的一个子领域，使用多层神经网络模拟人脑学习过程，能够自动提取特征，在图像识别、自然语言处理等领域表现优异。"
+  },
+  {
+    "question": "如何在家庭中节约用电？",
+    "answer": "使用节能电器，及时关闭不用的设备，充分利用自然光，合理设置空调温度，定期清洁电器，选择LED灯泡，拔掉待机设备插头。"
+  },
+  {
+    "question": "如何在C++中动态分配内存？",
+    "answer": "使用new操作符分配内存，delete释放内存，例如：int* ptr = new int(10); cout << *ptr; delete ptr; ptr = nullptr; 记得释放避免内存泄漏。"
+  },
+  {
+    "question": "如何选择合适的大学专业？",
+    "answer": "考虑个人兴趣和能力，研究专业就业前景，咨询学长老师意见，参观学校了解教学环境，参考薪资水平和职业发展路径。"
+  },
+  {
+    "question": "如何在iPhone上截屏？",
+    "answer": "同时按下电源键和音量加键（较新机型）或电源键和Home键（旧机型），截图会保存到相册中。"
+  },
+  {
+    "question": "什么是RESTful API？",
+    "answer": "RESTful API是一种基于HTTP协议设计的API风格，使用GET、POST、PUT、DELETE等方法对应CRUD操作，具有无状态、统一接口等特点。"
+  },
+  {
+    "question": "如何在厨房里安全烹饪？",
+    "answer": "保持厨房清洁，正确使用刀具，注意防火防烫，生熟食物分开处理，彻底清洗食材，正确储存食物，熟悉急救知识。"
+  },
+  {
+    "question": "如何在React中管理状态？",
+    "answer": "使用useState Hook管理组件内部状态，useContext共享全局状态，Redux处理复杂状态逻辑，或使用useReducer处理复杂更新逻辑。"
+  },
+  {
+    "question": "如何培养阅读习惯？",
+    "answer": "设定每日阅读时间，选择感兴趣的书籍，创造舒适的阅读环境，减少干扰因素，记录读书笔记，加入读书社群分享交流。"
+  },
+  {
+    "question": "如何在Windows中设置双显示器？",
+    "answer": "连接第二个显示器，右键桌面选择显示设置，检测并配置显示器排列，选择扩展或复制显示模式，调整分辨率和方向。"
+  },
+  {
+    "question": "什么是微服务架构？",
+    "answer": "微服务架构是一种将大型应用程序分解为小型独立服务的设计模式，每个服务负责特定业务功能，通过API通信，便于开发和维护。"
+  },
+  {
+    "question": "如何在家中进行锻炼？",
+    "answer": "制定锻炼计划，选择适合的运动项目如瑜伽、俯卧撑、跑步，使用健身APP指导，保持规律性，循序渐进增加强度，注意运动安全。"
+  },
+  {
+    "question": "如何在HTML中创建表单？",
+    "answer": "使用<form>标签包围<input>、<textarea>、<select>等表单元素，设置method和action属性，添加label关联控件，使用required等验证属性。"
+  },
+  {
+    "question": "如何选择合适的理财产品？",
+    "answer": "评估风险承受能力，了解产品收益和期限，比较不同机构的产品，关注费用和税收影响，分散投资降低风险，咨询专业理财师建议。"
+  },
+  {
+    "question": "如何在Android Studio中创建项目？",
+    "answer": "打开Android Studio，选择新建项目，选择应用模板，配置项目名称和包名，选择最低API级别，等待Gradle构建完成后开始开发。"
+  },
+  {
+    "question": "什么是物联网？",
+    "answer": "物联网（IoT）是通过互联网连接各种物理设备，使其能够收集和交换数据的技术，广泛应用于智能家居、工业自动化等领域。"
+  },
+  {
+    "question": "如何在家中节省开支？",
+    "answer": "制定家庭预算，减少不必要的消费，自己做饭代替外出就餐，使用优惠券和促销活动，批量购买必需品，取消不必要的订阅服务。"
+  },
+  {
+    "question": "如何在Vue.js中创建组件？",
+    "answer": "使用export default {}定义组件，包含template、script、style部分，定义props接收父组件数据，使用methods定义方法，通过v-bind和v-on绑定数据和事件。"
+  },
+  {
+    "question": "如何规划退休生活？",
+    "answer": "估算退休后生活费用，制定储蓄计划，了解养老金政策，考虑健康管理，规划兴趣爱好，安排社交活动，提前适应退休节奏。"
+  },
+  {
+    "question": "如何在Mac上使用快捷键？",
+    "answer": "Command+C复制，Command+V粘贴，Command+Z撤销，Command+A全选，Command+S保存，Option+Tab切换应用，Control+空格切换输入法。"
+  },
+  {
+    "question": "什么是人工智能？",
+    "answer": "人工智能是使机器能够模拟人类智能行为的技术，包括机器学习、自然语言处理、计算机视觉等分支，旨在解决复杂问题和执行智能任务。"
+  },
+  {
+    "question": "如何在家中种植蔬菜？",
+    "answer": "选择适合的容器和土壤，确保充足阳光，定期浇水施肥，选择易种植品种如小番茄、生菜，防治病虫害，适时收获。"
+  },
+  {
+    "question": "如何在JavaScript中处理异步操作？",
+    "answer": "使用Promise处理异步，async/await简化异步代码，fetch API进行网络请求，例如：async function getData() { const response = await fetch(url); return response.json(); }"
+  },
+  {
+    "question": "如何提高工作效率？",
+    "answer": "使用时间管理工具，设定优先级，避免多任务处理，减少干扰因素，合理安排休息时间，定期整理工作空间，建立有效的工作流程。"
+  },
+  {
+    "question": "如何在Linux中查找文件？",
+    "answer": "使用find命令查找文件，例如：find /home -name '*.txt'查找txt文件，locate命令快速搜索，grep命令在文件中搜索文本内容。"
+  },
+  {
+    "question": "什么是大数据？",
+    "answer": "大数据是指规模巨大、类型多样、增长迅速的数据集合，需要新的处理模式才能具有更强的决策力、洞察发现力和流程优化能力。"
+  },
+  {
+    "question": "如何在家中保持卫生？",
+    "answer": "制定清洁计划，定期打扫房间，保持通风换气，及时处理垃圾，勤洗手，定期消毒高频接触表面，保持个人卫生习惯。"
+  },
+  {
+    "question": "如何在Node.js中创建服务器？",
+    "answer": "使用内置的http模块，const http = require('http'); const server = http.createServer((req, res) => { res.writeHead(200, {'Content-Type': 'text/plain'}); res.end('Hello World'); }); server.listen(3000);"
+  },
+  {
+    "question": "如何选择合适的运动鞋？",
+    "answer": "根据运动类型选择，考虑足弓支撑和缓震功能，试穿时留出合适空间，选择透气材质，检查鞋子的耐用性和舒适度。"
+  },
+  {
+    "question": "如何在Git中创建分支？",
+    "answer": "使用git branch branch-name创建分支，git checkout branch-name切换分支，git checkout -b new-branch创建并切换，git push origin new-branch推送远程。"
+  },
+  {
+    "question": "如何在北京游玩？",
+    "answer": "参观故宫、天安门、长城等著名景点，品尝北京烤鸭等特色美食，体验胡同文化，规划合理的交通路线，避开节假日高峰。"
+  },
+  {
+    "question": "什么是网络安全？",
+    "answer": "网络安全是指保护网络系统硬件、软件和数据不受恶意攻击、破坏或未经授权访问的技术和措施，保障网络正常运行。"
+  },
+  {
+    "question": "如何在家中进行亲子活动？",
+    "answer": "一起做手工、画画、阅读故事书，玩益智游戏，做简单科学实验，烘焙点心，户外运动，培养孩子的兴趣爱好和创造力。"
+  },
+  {
+    "question": "如何在Python中连接数据库？",
+    "answer": "使用sqlite3模块连接SQLite，pymysql连接MySQL，psycopg2连接PostgreSQL，例如：import sqlite3; conn = sqlite3.connect('database.db'); cursor = conn.cursor();"
+  },
+  {
+    "question": "如何在上海游玩？",
+    "answer": "游览外滩、东方明珠、豫园等景点，体验海派文化，品尝小笼包等上海美食，参观博物馆和艺术馆，感受现代都市魅力。"
+  },
+  {
+    "question": "什么是敏捷开发？",
+    "answer": "敏捷开发是一种迭代式的软件开发方法论，强调快速交付、持续改进、团队协作和客户反馈，常用的框架有Scrum和看板。"
+  },
+  {
+    "question": "如何在家中照顾老人？",
+    "answer": "关注身体健康，提供营养均衡的饮食，协助日常起居，陪伴聊天交流，营造安全的居住环境，定期体检，尊重老人意愿。"
+  },
+  {
+    "question": "如何在Docker中运行容器？",
+    "answer": "使用docker run命令运行容器，例如：docker run -d -p 8080:80 nginx启动nginx容器，-d后台运行，-p端口映射，--name指定容器名。"
+  },
+  {
+    "question": "如何在广州游玩？",
+    "answer": "游览广州塔、陈家祠、沙面等景点，品尝早茶和粤菜，逛上下九步行街购物，体验岭南文化，欣赏珠江夜景。"
+  },
+  {
+    "question": "什么是DevOps？",
+    "answer": "DevOps是一种文化和实践，旨在打破开发和运维团队之间的壁垒，通过自动化工具和流程改进，实现更快的交付和更高的质量。"
+  },
+  {
+    "question": "如何在家中进行园艺？",
+    "answer": "选择适合的植物，准备花盆和土壤，掌握浇水和施肥技巧，了解植物的光照需求，定期修剪和护理，享受园艺的乐趣。"
+  },
+  {
+    "question": "如何在MongoDB中查询数据？",
+    "answer": "使用find()方法查询文档，例如：db.collection.find({name: 'John'})查询匹配条件的文档，findOne()查询单个文档，sort()排序结果。"
+  },
+  {
+    "question": "如何在深圳游玩？",
+    "answer": "参观世界之窗、欢乐谷主题公园，体验现代化城市风貌，品尝各地美食，逛东门老街购物，感受创新科技氛围。"
+  },
+  {
+    "question": "什么是容器化？",
+    "answer": "容器化是一种轻量级虚拟化技术，将应用程序及其依赖打包到一个可移植的容器中，实现环境一致性和快速部署，Docker是主流工具。"
+  },
+  {
+    "question": "如何在家中教育孩子？",
+    "answer": "制定学习计划，创造良好学习环境，耐心引导和鼓励，寓教于乐，培养良好习惯，关注身心健康，与学校老师保持沟通。"
+  },
+  {
+    "question": "如何在Redis中存储数据？",
+    "answer": "使用SET命令存储字符串，HSET存储哈希，LPUSH/RPUSH操作列表，SADD操作集合，例如：SET name 'Alice'存储键值对，EXPIRE设置过期时间。"
+  },
+  {
+    "question": "如何在成都游玩？",
+    "answer": "参观大熊猫繁育研究基地，品尝四川火锅和川菜，游览武侯祠、杜甫草堂，体验茶馆文化，逛锦里古街，感受悠闲的生活节奏。"
+  },
+  {
+    "question": "什么是微前端？",
+    "answer": "微前端是一种架构风格，将前端应用拆分为多个独立的小型应用，每个团队可以独立开发、测试和部署，提高开发效率和维护性。"
+  },
+  {
+    "question": "如何在家中组织收纳？",
+    "answer": "分类整理物品，选择合适的收纳工具，合理规划空间布局，建立物品归位习惯，定期清理不需要的物品，保持整洁有序。"
+  },
+  {
+    "question": "如何在Kubernetes中部署应用？",
+    "answer": "创建Deployment定义应用副本，Service暴露服务，ConfigMap存储配置，Secret存储敏感信息，使用kubectl apply -f deployment.yaml部署。"
+  },
+  {
+    "question": "如何在杭州游玩？",
+    "answer": "游览西湖景区，参观灵隐寺，体验茶文化，品尝杭帮菜，逛河坊街，感受江南水乡的诗意美景。"
+  },
+  {
+    "question": "什么是Serverless？",
+    "answer": "Serverless是一种云计算执行模型，开发者无需管理服务器，只需上传代码，由云平台自动处理资源分配和扩展，按实际使用付费。"
+  },
+  {
+    "question": "如何在家中进行美容护肤？",
+    "answer": "建立日常护肤流程，清洁、保湿、防晒，使用适合肤质的护肤品，定期做面膜，保持健康作息，多喝水，避免不良生活习惯。"
+  },
+  {
+    "question": "如何在Elasticsearch中搜索数据？",
+    "answer": "使用_search API进行查询，例如：GET /index/_search?q=field:value，支持全文搜索、范围查询、聚合分析等功能，返回JSON格式结果。"
+  },
+  {
+    "question": "如何在西安游玩？",
+    "answer": "参观兵马俑、大雁塔、城墙等历史遗迹，品尝陕西小吃如肉夹馍、凉皮，体验古都文化，感受丝绸之路起点的历史底蕴。"
+  },
+  {
+    "question": "什么是GraphQL？",
+    "answer": "GraphQL是一种用于API的查询语言和运行时，允许客户端精确指定所需数据，减少网络传输，提供更好的类型安全和开发体验。"
+  },
+  {
+    "question": "如何在家中进行手工制作？",
+    "answer": "选择感兴趣的手工项目如编织、绘画、陶艺，准备必要的工具材料，学习基础技巧，从简单项目开始，享受创作的乐趣。"
+  }
+]

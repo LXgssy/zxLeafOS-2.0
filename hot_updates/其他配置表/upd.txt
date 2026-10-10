@@ -1,0 +1,16 @@
+{
+  "最新版本": 20.8,
+  "最新版本号": "2.0v3",
+  "更新时间": "2026.09.25 11:00",
+  "新增功能": "修复了影响体验的BUG，加入了更多时钟排版，锁屏现在最底下会显示一些信息，新增蓝色壁纸，现在应用可以正常删除了，更多功能请自行探索",
+  "热更新链接池": [
+    "https://raw.githubusercontent.com/zx34zxLeafOS/zxLeafOS_sprite3-/main/%E6%B5%8B%E8%AF%95.sprite3",
+    "https://raw.githubusercontent.com/zx34zxLeafOS/zxLeafOS_sprite3-/main/%E6%B5%8B%E8%AF%952.sprite3",
+    "https://raw.githubusercontent.com/zx34zxLeafOS/zxLeafOS_sprite3-/main/%E6%B5%8B%E8%AF%952.sprite3"
+  ],
+  "热更新类型": "sprite3",
+  "更新策略": {
+    "是否强制更新": false,
+    "最低兼容版本": "20.8"
+  }
+}

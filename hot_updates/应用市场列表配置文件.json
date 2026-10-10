@@ -1,0 +1,47 @@
+[
+  {
+    "name": "应用模板",
+    "desc": "官方应用模板",
+    "author": "zx34owo",
+    "version": "1.0",
+    "size": "5.62MB",
+    "category": "系统",
+    "url": "https://raw.githubusercontent.com/zx34zxLeafOS/zxLeafOS_sprite3-/main/%E5%BA%94%E7%94%A8%E6%A8%A1%E6%9D%BF.zip"
+  },
+  {
+    "name": "github",
+    "desc": "zxLeafOS版github",
+    "author": "zx34owo",
+    "version": "2.1",
+    "size": "10MB",
+    "category": "开发",
+    "url": "https://raw.githubusercontent.com/zx34zxLeafOS/zxLeafOS_sprite3-/main/%E5%BA%94%E7%94%A8%E6%A8%A1%E6%9D%BF.zip"
+  },
+  {
+    "name": "像素画板",
+    "desc": "简单易用的像素艺术创作软件",
+    "author": "zx34owo",
+    "version": "1.5",
+    "size": "10MB",
+    "category": "系统",
+    "url": "https://raw.githubusercontent.com/zx34zxLeafOS/zxLeafOS_sprite3-/main/%E5%BA%94%E7%94%A8%E6%A8%A1%E6%9D%BF.zip"
+  },
+  {
+    "name": "单词记忆卡",
+    "desc": "利用艾宾浩斯曲线帮助背单词",
+    "author": "zx34owo",
+    "version": "3.0",
+    "size": "10MB",
+    "category": "教育",
+    "url": "https://raw.githubusercontent.com/zx34zxLeafOS/zxLeafOS_sprite3-/main/%E5%BA%94%E7%94%A8%E6%A8%A1%E6%9D%BF.zip"
+  },
+  {
+    "name": "物理模拟器",
+    "desc": "模拟重力、碰撞等物理现象的沙盒",
+    "author": "zx34owo",
+    "version": "0.9",
+    "size": "10MB",
+    "category": "游戏",
+    "url": "https://raw.githubusercontent.com/zx34zxLeafOS/zxLeafOS_sprite3-/main/%E5%BA%94%E7%94%A8%E6%A8%A1%E6%9D%BF.zip"
+  }
+]
