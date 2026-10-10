@@ -1,7 +1,7 @@
 # zxLeafOS 2.0 正式版 v3
 
-> 基于 Scratch 3.0 的网页"操作系统"项目，由 zx34owo 开发。
-> 本仓库为项目作者亲自开源的全部源码。
+> 基于 Scratch 3.0 的网页"操作系统"项目。
+> 本仓库为项目全部源码，以 MIT 协议开源。
 
 ## 项目简介
 
@@ -69,9 +69,10 @@ zxLeafOS 2.0 是基于 Scratch 3.0 平台开发的伪操作系统项目，模拟
 > 推荐使用 [TurboWarp](https://turbowarp.org/) 打开，兼容性更好。
 > 扩展源码已镜像在 `hot_updates/extensions/` 目录。
 
-### 方法 2：使用原始打包版本
+### 方法 2：使用热更新版 HTML（推荐）
 
-直接打开 `zxLeafOS 2.0正式版v3 0926.html` 即可运行（不在本仓库中，需另行获取）。
+从 [Release 页面](https://github.com/LXgssy/zxLeafOS-2.0/releases) 下载 `zxLeafOS-2.0-hotupdated.html`，
+双击即可在浏览器中打开运行，所有热更新内容已内嵌，无需联网。
 
 ## 精灵分组（共 15 组）
 
@@ -114,7 +115,6 @@ zxLeafOS 2.0 是基于 Scratch 3.0 平台开发的伪操作系统项目，模拟
 
 ## 致谢
 
-- 项目作者: **zx34owo**
 - 打包工具: [02Engine Packager](https://packager.02engine.02studio.xyz/) by 02Studio
 - 运行时: [Scaffolding](https://github.com/TurboWarp/scaffolding) (Mozilla Public License v2.0)
 - [Scratch](https://scratch.mit.edu/) by MIT
