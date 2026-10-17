@@ -87,3 +87,37 @@ beta2.5/
 ## 许可证
 
 本项目全部源码以 **MIT 协议** 开源，详见 [LICENSE](https://github.com/LXgssy/zxLeafOS-2.0/blob/main/LICENSE)。
+
+## 扩展源码
+
+`extensions/` 目录包含 23 个内嵌扩展的完整可读 JavaScript 源码：
+
+| 扩展 ID | 说明 | 大小 |
+|---------|------|------|
+| SPmbpCST | My Blocks+ (自定义积木) | 117 KB |
+| 0832rxfs2 | rxFS (虚拟内存文件系统) | 15 KB |
+| mistiumindexeddb | IndexedDB 存储 | 13 KB |
+| iframePlus | Iframe Plus (网页嵌入) | 16 KB |
+| betterText | Better Text (文本处理) | 41 KB |
+| zxTools4 | ZX Tools 4.0 (HTTP请求/录音等) | 104 KB |
+| zx | ZXtools2.0 (计时器/倒计时) | 23 KB |
+| filehelperprov2 | File Helper Pro V2 (文件操作) | 12 KB |
+| advancedMonacoEditor | Advanced Monaco Editor (代码编辑器) | 79 KB |
+| cyberexplorertoolboxzx | Cyberexplorer's Toolbox Mini | 133 KB |
+| lmsDocuments | LMS Documents (文档系统) | 159 KB |
+| WhenKeyPress | When Key Press (按键检测) | 133 KB |
+| enhancedruntimeoptions | Enhanced Runtime Options | 19 KB |
+| zxMusicPlayerV2 | ZX Music Player V2 | 36 KB |
+| zxLyricsToolkit | ZX Lyrics Toolkit (歌词处理) | 35 KB |
+| zxHtmlPreview | ZX HTML Preview | 18 KB |
+| pageosWeatherOpenMeteoFull | PageOS Weather (Open-Meteo 天气) | 25 KB |
+| zxCharacterControl | ZX Character Control (角色/ZIP控制) | 32 KB |
+| dataurlmimefixer | Data URL MIME Fixer | 11 KB |
+| speechapi | Web Speech API (语音识别) | 20 KB |
+| variablesnapshot | Variable Snapshot (变量快照) | 25 KB |
+| passwordprotect | Password Protect (密码保护) | 26 KB |
+| WitCatInput | WitCat Input (输入框) | 77 KB |
+
+另有 13 个远程扩展从 TurboWarp CDN 加载，列表见 `extensions/_remote_extensions.txt`。
+
+`project.decoded.json` 是将所有 data: URI 替换为文件路径的版本，便于阅读。

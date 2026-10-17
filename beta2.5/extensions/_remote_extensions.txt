@@ -1,0 +1,16 @@
+# Remote (HTTP) extensions used by this project
+# These are fetched from TurboWarp's extension CDN at runtime
+
+skyhigh173JSON: https://extensions.turbowarp.org/Skyhigh173/json.js
+lmsTempVars2: https://extensions.turbowarp.org/Lily/TempVariables2.js
+lmsclonesplus: https://extensions.turbowarp.org/Lily/ClonesPlus.js
+lmsAssets: https://extensions.turbowarp.org/Lily/Assets.js
+text: https://extensions.turbowarp.org/lab/text.js
+lmsLooksPlus: https://extensions.turbowarp.org/Lily/LooksPlus.js
+gsaHTTPRequests: https://extensions.turbowarp.org/godslayerakp/http.js
+lmsVideo: https://extensions.turbowarp.org/Lily/Video.js
+cubesterWindowControls: https://extensions.turbowarp.org//CubesterYT/WindowControls.js
+cst1229zip: https://extensions.turbowarp.org/CST1229/zip.js
+theshovelcanvaseffects: https://extensions.turbowarp.org/TheShovel/CanvasEffects.js
+numericalencoding2: https://extensions.turbowarp.org/numerical-encoding-2.js
+lmsSoundExpanded: https://extensions.turbowarp.org/Lily/SoundExpanded.js
