@@ -7,7 +7,7 @@
 | 项目 | 数量 |
 |------|------|
 | 精灵（Sprites） | 338 |
-| 积木（Blocks） | 29,535 |
+| 积木（Blocks） | 29,526 |
 | 造型（Costumes） | 895 |
 | 声音（Sounds） | 1 |
 | 扩展（Extensions） | 37 |
@@ -56,23 +56,31 @@ PenguinMod 打包的 HTML 使用 AES-256-GCM 加密项目数据：
 
 ```
 beta2.5/
-├── project.json              # Scratch 3.0 项目主文件
-├── assets/                   # 762 个素材文件
-│   ├── *.svg                 # 矢量图素材
-│   ├── *.ttf                 # 字体文件
-│   └── ...
-└── README.md                 # 本文档
+├── project.json                        # 项目主文件 (紧凑格式)
+├── zxLeafOS-beta2.5-original.sb3       # exe 内嵌的原始项目文件 (与解包结果字节级一致)
+├── extensions/                         # 自制扩展可读 JS 源码
+│   ├── zx.js / SPmbpCST.js / zxTools4.js / ...
+│   └── _remote_extensions.txt          # 引用的官方 gallery 扩展清单
+└── README.md                           # 本文档
 ```
+
+> 素材文件不再单独存放：所有素材已包含在 `.sb3` 内，且与根目录 `assets/` 高度重复。
+> 需要单独的素材时，将 `.sb3` 后缀改为 `.zip` 直接解压即可。
 
 ## 使用方法
 
 ### 在 TurboWarp 中打开
 
-1. 从 [Release v2.5-beta](https://github.com/LXgssy/zxLeafOS-2.0/releases/tag/v2.5-beta) 下载 `zxLeafOS-beta2.5.sb3`
+1. 从 [Release v2.5-beta](https://github.com/LXgssy/zxLeafOS-2.0/releases/tag/v2.5-beta) 下载 `zxLeafOS-beta2.5-original.sb3`
 2. 访问 [TurboWarp 编辑器](https://turbowarp.org/editor)
 3. 选择 "File → Load from your computer"，选择 `.sb3` 文件
+4. 依次通过 **23 个扩展授权弹窗**：每个弹窗**勾选 "Run without sandbox" 后点击 "Allow"**
+   （第一次勾选后浏览器会记住，后续弹窗默认已勾选）
 
-> ⚠️ 本项目使用了 37 个自定义扩展。推荐使用 TurboWarp 打开，兼容性更好。
+> ⚠️ 本项目内嵌了 23 个自制扩展（其余 14 个：13 个官方 gallery 扩展 + TurboWarp 内置扩展，自动加载不弹窗）。
+> 任何一个扩展被点 "Deny" 拒绝、或未勾选非沙箱就直接允许，都会导致**项目永远卡在加载界面**。
+> 详细说明见[根 README 的 TurboWarp 导入指南](../README.md#方法-2在-turbowarp-编辑器中打开-sb3开发者)。
+> 想要零弹窗体验请使用 Release 中的打包版。
 
 ## 与正式版 v3 的差异
 
@@ -81,7 +89,7 @@ beta2.5/
 | 打包工具 | PenguinMod Packager | 02Engine Packager |
 | 加密方式 | AES-256-GCM (HTML 层) + PyInstaller exe 双层 | Base85 编码 (非加密) |
 | 精灵数 | 338 | 335 |
-| 积木数 | 29,535 | 26,000+ |
+| 积木数 | 29,526 | 26,000+ |
 | 扩展数 | 37 | 35 |
 
 ## 许可证

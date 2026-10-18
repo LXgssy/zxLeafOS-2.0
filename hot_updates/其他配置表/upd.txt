@@ -5,7 +5,6 @@
   "新增功能": "修复了一些已知问题",
   "热更新链接池": [
     "https://raw.githubusercontent.com/zx34zxLeafOS/zxLeafOS_sprite3-/main/%E6%B5%8B%E8%AF%95.sprite3",
-    "https://raw.githubusercontent.com/zx34zxLeafOS/zxLeafOS_sprite3-/main/%E6%B5%8B%E8%AF%952.sprite3",
     "https://raw.githubusercontent.com/zx34zxLeafOS/zxLeafOS_sprite3-/main/%E6%B5%8B%E8%AF%952.sprite3"
   ],
   "热更新类型": "sprite3",

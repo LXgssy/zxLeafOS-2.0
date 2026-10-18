@@ -2,6 +2,7 @@
 # Source project: zxLeafOS 2.0 正式版 v3
 # Downloaded on: 2026-10-10
 #
+# Note: api/ip.sb.geoip.json (real server IP leak) removed on 2026-10-18 for privacy.
 # Format: <category>	<local_path>	<source_url>	<size>
 
 zx34zxLeafOS	其他配置表/upd.txt	https://raw.githubusercontent.com/zx34zxLeafOS/zxLeafOS_sprite3-/main/%E5%85%B6%E4%BB%96%E9%85%8D%E7%BD%AE%E8%A1%A8/upd.txt	773	OK
@@ -26,4 +27,3 @@ extensions	extensions/sample/dango.mp4	https://extensions.turbowarp.org/dango.mp
 extensions	extensions/sample/hello.html	https://extensions.turbowarp.org/hello.html	2176	OK
 extensions	extensions/sample/hello.txt	https://extensions.turbowarp.org/hello.txt	13	OK
 extensions	extensions/sample/hello.zip	https://extensions.turbowarp.org/hello.zip	3055	OK
-api	api/ip.sb.geoip.json	https://api.ip.sb/geoip	316	OK
