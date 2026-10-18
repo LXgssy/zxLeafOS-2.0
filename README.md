@@ -131,11 +131,11 @@ Looks+ 等），项目即可正常加载与运行。
 
 项目运行时会从以下位置拉取热更新内容：
 
-- **更新源仓库**: https://github.com/zx34zxLeafOS/zxLeafOS_sprite3-
+- **更新源仓库**: 本仓库自托管（2026-10-18 起热更源已迁回 `hot_updates/` 统一管理，原外部仓库 `zx34zxLeafOS/zxLeafOS_sprite3-` 不再作为更新源，运行时拉取地址已全部改指向本仓库）
 - **更新配置**: `hot_updates/其他配置表/upd.txt`
 - **更新策略**: 非强制更新，最低兼容版本 `20.8`（版本号 2.0v3）
 
-所有热更新文件已在本仓库的 `hot_updates/` 目录中完整镜像，
+所有热更新文件均自托管于本仓库的 `hot_updates/` 目录，
 查看 [hot_updates/MANIFEST.txt](hot_updates/MANIFEST.txt) 获取完整文件清单。
 
 ## 项目元数据
@@ -151,7 +151,8 @@ Looks+ 等），项目即可正常加载与运行。
 **2026-10-18 仓库体检与修复**：
 
 - ✅ 修复 8 个 SVG 素材文件名 md5 与内容不符的问题（根 `assets/` 与 `project.json` 引用同步更新）
-- ✅ 移除 `hot_updates/api/ip.sb.geoip.json`（该文件为实抓的 API 响应，泄露真实服务器公网 IP）
+- ✅ 热更源迁回本仓库统一管理：外部仓库内容全量并入 `hot_updates/`（新增 4 个示例程序 sprite3、应用库说明等 9 个文件），`upd.txt` 链接池 / 应用市场列表 / 运行时 `project.json`（根目录与 beta2.5 各 18 处）中的外部 URL 全部改指向本仓库，`MANIFEST.txt` 重写为自托管清单，Release 附件 sb3 同步重建
+- ↩️ 按维护者决定恢复 `hot_updates/api/ip.sb.geoip.json`（ip.sb API 响应快照，含服务器公网 IP 8.212.10.159，维护者知悉并选择保留）
 - ✅ 修复 `upd.txt` 热更新链接池中的重复 URL
 - ✅ `beta2.5/` 目录瘦身（34MB → 8.4MB）：移除与根目录重复的 744 个素材、中间产物 `project.decoded.json` 与存在素材命名问题的重存版 sb3；`project.json` 紧凑化（12.8MB → 6.2MB）
 - ✅ Release 附件中的 `.sb3` 全部重建为完全符合 sb3 规范（素材 md5 = 文件名 = 内容哈希）的版本
